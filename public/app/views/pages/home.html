@@ -28,8 +28,9 @@
 
 			</div>
 			<div class="panel panel-success">
-				<div class="panel-body" ng-repeat="story in story.allStory">
-					<p>{{story.content}}</p>
+				<div class="panel-heading">Your stories</div>
+				<div class="panel-body" ng-repeat="each in story.stories | reverse">
+					<p>{{each.content}}</p>
 				</div>
 			</div>
 		</div>

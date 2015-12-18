@@ -13,7 +13,6 @@ angular.module('mainCtrl', [])
 				vm.user = data.data;
 
 			});
-
 	});
 
 	vm.doLogin = function() {
